@@ -19,7 +19,7 @@ val_dir = os.path.join(data_dir, "val")
 
 # 图像预处理
 transform = transforms.Compose([
-    transforms.Resize((224, 224)),
+    transforms.Resize((32, 32)),
     transforms.ToTensor(),
 ])
 
